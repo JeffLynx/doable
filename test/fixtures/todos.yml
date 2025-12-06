@@ -1,9 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
+  name: First Todo
+  description: Something
+  completed: false
+  priority: 1
+  project: one
 
 two:
-  name: MyString
-  description: MyText
+  name: Second Todo
+  description: Something else
+  completed: false
+  priority: 1
+  project: one
